@@ -12,6 +12,11 @@ Remove bloatware from Raspberry Pi Raspbian with one script. This will remove th
 
 The script will then `autoremove`, `autoclean` and then `update` the aptitude pacakges on the Pi itself.
 
+This Script will also deploy the needed Software for using the raspberry pi as an information screen, including:
+1. chromium
+2. zip
+3. wget
+
 ## Installation
 
 Run the following command within the Raspberry Pi terminal:
