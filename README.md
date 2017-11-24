@@ -18,13 +18,3 @@ Run the following command within the Raspberry Pi terminal:
 ```
 wget -O - https://raw.githubusercontent.com/stev-it/remove-bloat/master/deploy.sh | sudo bash
 ```
-
-Then make the script executable:
-```
-sudo chmod +x install.sh
-```
-
-Run with:
-```
-sudo ./install.sh
-```
