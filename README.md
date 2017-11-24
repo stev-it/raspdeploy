@@ -16,5 +16,5 @@ The script will then `autoremove`, `autoclean` and then `update` the aptitude pa
 
 Run the following command within the Raspberry Pi terminal:
 ```
-wget -O - https://raw.githubusercontent.com/stev-it/remove-bloat/master/deploy.sh | sudo bash
+wget -O - https://raw.githubusercontent.com/stev-it/raspdeploy/master/deploy.sh | sudo bash
 ```
