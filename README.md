@@ -1,4 +1,4 @@
-# Remove Bloatware on the Raspberry Pi
+# Remove Bloatware on the Raspberry Pi & deploy needed software
 Remove bloatware from Raspberry Pi Raspbian with one script. This will remove the storage hogging programs and some other often never-used tools including:
 
 1. Wolfram Engine
@@ -16,15 +16,15 @@ The script will then `autoremove`, `autoclean` and then `update` the aptitude pa
 
 Run the following command within the Raspberry Pi terminal:
 ```
-git clone git://github.com/raspberrycoulis/remove-bloat.git
+wget -O - https://raw.githubusercontent.com/stev-it/remove-bloat/master/deploy.sh | sudo bash
 ```
 
 Then make the script executable:
 ```
-sudo chmod +x remove-bloat.sh
+sudo chmod +x install.sh
 ```
 
 Run with:
 ```
-sudo ./remove-bloat.sh
+sudo ./install.sh
 ```
