@@ -12,6 +12,8 @@ cd /tmp
 
 #install wifi support & wifi passphrases
 sudo apt-get update && sudo apt-get install wpa_supplicant -y
+sudo wget -O https://raw.githubusercontent.com/stev-it/raspdeploy/master/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf
+echo "DONT FORGET TO CHANGE THE CONFIG, AS ITS EMPTY NOW!"
 
 #install applications
 sudo apt-get update && sudo apt-get install chromium zip -y
